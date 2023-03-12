@@ -39,7 +39,9 @@ export default function Checkout() {
     searchParams.append('reference', reference.toString());
     searchParams.append('amount', amount.toString());
     searchParams.append('pid', partnerId);
-    // searchParams.append('usePoints', usePoints.toString());
+
+    const usePoints = router.query.usePoints === 'on';
+    searchParams.append('usePoints', usePoints.toString());
 
     console.log('searchParams', searchParams.toString())
 
