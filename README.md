@@ -1,3 +1,3 @@
-# Take payments IRL with Solana Pay
+# LunarLink demo - Offline store
 
-Code for [Pointer Solana Pay Tutorial](pointer.gg/tutorials/solana-pay-irl-payments)
+
